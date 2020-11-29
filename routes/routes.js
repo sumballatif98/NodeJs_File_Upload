@@ -133,12 +133,6 @@ var fs = require('fs-extra');       //File System - for file manipulation
 //         return res.json({originalname:req.file.originalname, uploadname:req.file.filename});
 //     });
 // });
-
-//................................
-//    uploadRoutes.route('/download').get(function(req,res){
-//     res.download(path.join("../backend/upload/CS402_handouts.pdf"));
-
-//    })
 //.................................................................................
 
 //second test
