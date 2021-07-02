@@ -6,11 +6,6 @@ var fs = require('fs');
 const upload = async (req, res) => {
 
   try {
-  //   var dir=req.query.params;
-  //    console.log(req.query.name);
-  //    fs.mkdir(req.query.name, { recursive: true }, (err) => {
-  //     if (err) throw err;
-  // })
 
     await uploadFile(req, res);
 
@@ -55,7 +50,6 @@ const multipleUpload = async (req, res) => {
     return res.send(`Error when trying upload many files: ${error}`);
   }
 };
-
 
 
 const getListFiles = (req, res) => {
